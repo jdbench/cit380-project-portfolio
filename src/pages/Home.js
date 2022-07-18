@@ -39,12 +39,7 @@ export function Home() {
                 Class Goals
               </Card.Title>
               <Card.Text>
-                Throughout this course, I have had the 
-                opportunity to recognize and 
-                accept my own weaknesses in a project 
-                group either through my own reflection
-                or through feedback requested from my
-                team.
+                <h4 className='px-2 py-2' style={{background:"lightgreen"}}>Desired Course Outcomes</h4>
               </Card.Text>
             </Card.Body>
           </Card>
