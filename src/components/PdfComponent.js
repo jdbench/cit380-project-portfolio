@@ -6,15 +6,28 @@ export function PdfComponent(pdf){
     const [numPages, setNumPages] = useState(null);
 
     return (
-        <div>
+        <div className="PDFDiv">
             <Document 
+                width={document.getElementsByClassName('PDFDiv').clientWidth*1 ?? 150}
                 file={pdf}
                 onLoadSuccess={({ numPages }) => setNumPages(numPages)}
             >
                 {Array.apply(null, Array(numPages))
                 .map((x, i)=>i+1)
-                .map(page=> <Page pageNumber={page}/>)}
+                .map(page=> <Page width={document.getElementsByClassName('PDFDiv').clientWidth*1 ?? 150} key={page} pageNumber={page}/>)}
             </Document>
+            <style type='text/css'>
+                {`
+                    .react-pdf__Page__canvas, .react-pdf__Page__textContent{
+                        margin: 0 auto;
+                        width: 100% !important;
+                        height: 100% !important;
+                    }
+                    * {
+                        overflow: hidden;
+                    }
+                `}
+            </style>
         </div>
     )
 }
