@@ -17,7 +17,7 @@ export function Project2() {
             <div className='bg-light'>
                 <h2 className='px-2 py-2' style={{background: "lightblue"}}>Deliverables</h2>
                 <div className='embed-responsive'>
-                    <iframe title='Random Survivor Fact' className='embed-responsive-item w-100' style={{height: "700px"}} src="https://jdbench.github.io/cit380/project2/" scrolling='no'></iframe>
+                    <iframe title='Random Survivor Fact' className='embed-responsive-item w-100' style={{height: "600px", width: "100%"}} src="https://jdbench.github.io/cit380/project2/" scrolling='no'></iframe>
                 </div>
             </div>
         </Container>

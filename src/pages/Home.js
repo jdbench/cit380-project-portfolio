@@ -38,15 +38,19 @@ export function Home() {
               <Card.Title className='px-2 py-3' style={{background: "lightblue"}}>
                 Class Goals
               </Card.Title>
-              <Card.Text style={{background: "whitesmoke", boxShadow: "1px 2px 4px 1px gainsboro"}}>
+              <div style={{background:"whitesmoke", boxShadow:"1px 2px 4px 1px gainsboro"}}>
                 <h4 className='px-2 py-2' style={{background:"lightgreen"}}>Desired Course Outcomes</h4>
-                <ul>
-                  <li>Plan to do work and implement automated tracking of work. (Proactive Planner)</li>
-                  <li>Gain the ability and the willpower to let others take on larger loads of work without me completely taking over, but still helping where help is needed. (Team Player)</li>
-                  <li>Feel comfortable actively seeking feedback from group and class members regarding work that I do through presentations, reports, team communications, and deliverables. (Effective Communicator)</li>
-                  <li>Find methods for determining project success other than getting a good grade.(Sound Thinker)</li>
-                </ul>
-              </Card.Text>
+                <div className='px-2'>
+                  <ul>
+                    <li>Plan to do work and implement automated tracking of work. (Proactive Planner)</li>
+                    <li>Gain the ability and the willpower to let others take on larger loads of work without me completely taking over, but still helping where help is needed. (Team Player)</li>
+                    <li>Feel comfortable actively seeking feedback from group and class members regarding work that I do through presentations, reports, team communications, and deliverables. (Effective Communicator)</li>
+                    <li>Find methods for determining project success other than getting a good grade.(Sound Thinker)</li>
+                  </ul>
+                </div>
+                
+              </div>
+                
             </Card.Body>
           </Card>
           <Card>
