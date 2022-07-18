@@ -2,7 +2,7 @@ import React from 'react';
 import { Container } from 'react-bootstrap';
 import { JournalNav } from '../../components';
 import { PdfComponent } from '../../components'
-import pdf from './resources/W12.pdf';
+import pdf from './resources/W13.pdf';
 
 export function J13() {
   return (
