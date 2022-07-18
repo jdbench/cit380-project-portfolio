@@ -22,8 +22,6 @@ export function PdfComponent(pdf){
                         margin: 0 auto;
                         width: 100% !important;
                         height: 100% !important;
-                    }
-                    * {
                         overflow: hidden;
                     }
                 `}

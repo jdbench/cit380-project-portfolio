@@ -8,6 +8,13 @@
       "type": "image/x-icon"
     }
   ],
+  "images":[
+    {
+      "src": "home.jpg",
+      "sizes": "400x300, 200x150, 100x75",
+      "type": "image"
+    }
+  ],
   "start_url": ".",
   "display": "standalone",
   "theme_color": "#000000",
