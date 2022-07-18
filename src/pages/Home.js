@@ -25,7 +25,7 @@ export function Home() {
                 purpose is to help other people and 
                 the community they exist in. It is 
                 my hope that within this organization,
-                I will help the organization by creating,
+                I will help by creating,
                 planning, building, and deploying
                 tools for the company to use that will
                 ulimately make the company function
