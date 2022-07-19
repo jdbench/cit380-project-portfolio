@@ -25,7 +25,7 @@ export function Project3() {
                     <h2 className='px-2 py-2' style={{background: "lightblue"}}>Process</h2>
                     <Card.Text>
                         At first, I was unaware of where to start or what to do. I <Card.Link href="https://webmailbyui-my.sharepoint.com/:w:/g/personal/jdbench_byui_edu/EV6LmsA-QQtAhAlH6yvzktsBXwLl5Fti47QP_SUd5ZxUSA?e=Gwif1P" target="_blank">created a plan</Card.Link> with
-                        my brother of features that he would like to have. Because this project would work best information
+                        my brother of features that he would like to have. Because this project would work best in
                         React.js, I made plans to watch videos and follow along. Then I created a Trello board for tracking
                         my progress through the project as detailed in <Card.Link href="../journals/W09.js" target="_blank">my week nine journal</Card.Link>.
                         I decided to use the Get Stuff Done methodology for this project with some artifacts from
