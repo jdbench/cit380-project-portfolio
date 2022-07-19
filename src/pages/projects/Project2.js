@@ -27,7 +27,7 @@ export function Project2() {
                         For this project, we started by using the waterfall approach,
                         then we moved to the v-model method, and then finally
                         we moved to an adaptation of the SAFe method we named the 
-                        Storybook model. During our planning, we made gave each of 
+                        Storybook model. During our planning, we made and gave each of 
                         our features a point value and a story. These stories all
                         got entered into our storybook, and then we chose what we
                         wanted to help with and told the group when we started work
