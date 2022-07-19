@@ -43,6 +43,14 @@ export function Project1() {
             </Card>
             <Card className='bg-light'>
                 <Card.Body>
+                    <h2 className='px-2 py-2' style={{background: "lightblue"}}>Time Spent</h2>
+                    <Card.Text>
+                        ~ 12 hours
+                    </Card.Text>
+                </Card.Body>
+            </Card>
+            <Card className='bg-light'>
+                <Card.Body>
                     <h2 className='px-2 py-2' style={{background: "lightblue"}}>Deliverables</h2>
                         <ul>
                         <li><Card.Link href="https://webmailbyui-my.sharepoint.com/:w:/g/personal/jarenbro_byui_edu/ET82B5ybidxCkGXMBnvvfngBLhcPcHYzxiGtHvlbLGp2vQ?e=OLLXS4" target="_blank">Scrum Planning Minutes 1</Card.Link></li>

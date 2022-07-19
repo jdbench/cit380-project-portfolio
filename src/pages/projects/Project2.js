@@ -37,6 +37,14 @@ export function Project2() {
             </Card>
             <Card className='bg-light'>
                 <Card.Body>
+                    <h2 className='px-2 py-2' style={{background: "lightblue"}}>Time Spent</h2>
+                    <Card.Text>
+                        ~ 28 hours
+                    </Card.Text>
+                </Card.Body>
+            </Card>
+            <Card className='bg-light'>
+                <Card.Body>
                     <h2 className='px-2 py-2' style={{background: "lightblue"}}>Deliverables</h2>
                     <ul>
                         <li><Card.Link href="https://webmailbyui-my.sharepoint.com/:x:/g/personal/jdbench_byui_edu/EcqaIe-7_mJFpoke-ZhU3wIBR4YkH9zIK4AmRUHEqsi_Vw?e=LdTfZL" target="_blank">Project Charter</Card.Link></li>
