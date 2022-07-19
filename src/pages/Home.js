@@ -45,9 +45,15 @@ export function Home() {
                     <li>Plan to do work and implement automated tracking of work. (Proactive Planner)</li>
                     <li>Gain the ability and the willpower to let others take on larger loads of work without me completely taking over, but still helping where help is needed. (Team Player)</li>
                     <li>Feel comfortable actively seeking feedback from group and class members regarding work that I do through presentations, reports, team communications, and deliverables. (Effective Communicator)</li>
-                    <li>Find methods for determining project success other than getting a good grade.(Sound Thinker)</li>
+                    <li>Find methods for determining project success other than getting a good grade. (Sound Thinker)</li>
                   </ul>
+                  <Card.Text>
+                  Other goals I've made during the semester can be found on the <Card.Link href="https://webmailbyui-my.sharepoint.com/personal/jdbench_byui_edu/_layouts/15/Doc.aspx?sourcedoc={520d7ca5-d85d-4efc-a27c-658e5e508806}&action=embedview&wdAllowInteractivity=False&wdHideGridlines=True&wdHideHeaders=True&wdDownloadButton=True&wdInConfigurator=True&wdInConfigurator=True&edesNext=false&ejss=false" target="_blank">Course Backlog</Card.Link> I developed.
+                  Throughout the semester, I continued to make goals that would help me
+                  to achieve the goals that I set at the beginning of the semester.
+                  </Card.Text>
                 </div>
+                
                 
               </div>
                 
@@ -66,6 +72,7 @@ export function Home() {
                 or through feedback requested from my
                 team.
               </Card.Text>
+              <Card.Link href="https://webmailbyui-my.sharepoint.com/personal/jdbench_byui_edu/_layouts/15/Doc.aspx?sourcedoc={520d7ca5-d85d-4efc-a27c-658e5e508806}&action=embedview&wdAllowInteractivity=False&wdHideGridlines=True&wdHideHeaders=True&wdDownloadButton=True&wdInConfigurator=True&wdInConfigurator=True&edesNext=false&ejss=false" target="_blank">Course Backlog</Card.Link>
             </Card.Body>
           </Card>
           <Card>
