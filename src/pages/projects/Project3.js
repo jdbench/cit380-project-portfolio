@@ -1,6 +1,5 @@
 import React from 'react';
 import { Card, Container } from 'react-bootstrap';
-import { Link } from 'react-router-dom';
 import { ProjectNav } from '../../components';
 
 export function Project3() {

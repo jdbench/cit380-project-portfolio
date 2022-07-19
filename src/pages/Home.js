@@ -65,10 +65,10 @@ export function Home() {
               Class Activities
               </Card.Title>
               <Card.Text>
-                I participated in the creation of <Card.Link>Becoming a Better Student</Card.Link>,
-                and <Card.Link>Project Survivor</Card.Link> in a group consisting of Isaac 
+                I participated in the creation of <Card.Link href='./projects/Project1.js' target="_blank">Becoming a Better Student</Card.Link>,
+                and <Card.Link href='./projects/Project2.js' target="_blank">Project Survivor</Card.Link> in a group consisting of Isaac 
                 Smith, Nathan Lambert, Jaren Brownlee, and I. Later, I worked on the projects
-                <Card.Link>PickShip</Card.Link> and this website portofolio on my own Overall, I put
+                <Card.Link href='./projects/Project3.js' target="_blank">PickShip</Card.Link> and this website portofolio on my own Overall, I put
                 about 120 hours of work into the projects I worked on throughout this semester.
                 All of the work starting with Project Surivor can be found on my
                 <Card.Link href="https://webmailbyui-my.sharepoint.com/personal/jdbench_byui_edu/_layouts/15/Doc.aspx?sourcedoc={520d7ca5-d85d-4efc-a27c-658e5e508806}&action=embedview&wdAllowInteractivity=False&wdHideGridlines=True&wdHideHeaders=True&wdDownloadButton=True&wdInConfigurator=True&wdInConfigurator=True&edesNext=false&ejss=false" target="_blank">Course Backlog</Card.Link>.
